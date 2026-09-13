@@ -62,3 +62,23 @@ graphify-out/
 # Working scratch (session plans/reports, MCP tool state) — never repo content
 /.tmp/
 /.playwright-mcp/
+
+# --- Secrets: Muster nur hier; nie echte Werte committen/pushen ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+!*example*.key
+id_rsa
+id_rsa.pub
+credentials.json
+**/credentials.json
+secrets/
+.secrets/
+*.secret
+.npmrc
+.pypirc
+auth.json
+service-account*.json
+
